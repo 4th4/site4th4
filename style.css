@@ -1,0 +1,181 @@
+body{
+    margin: 0px;
+}
+
+.upbar{
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.82);
+}
+
+#uplogo{
+    position: absolute;
+    height: 19px;
+    margin-top: 13px;
+    left: 13%;
+}
+
+.menu{
+    margin-left: 150px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    display:inline;
+}
+
+@keyframes in{
+    from {color: white}
+    to {color: darkgrey}
+}
+
+
+@keyframes out{
+    from {color: darkgrey}
+    to {color: white}
+}
+
+@keyframes inlogo{
+    from {background-image: url(res/4logo.png)}
+    to {background-image: url(res/4logo2.svg)}
+}
+
+
+@keyframes outlogo{
+    from {background-image: url(res/4logo2.svg)}
+    to {background-image: url(res/4logo.png)}
+}
+
+li {
+    color: ivory;
+    margin-left: 8%;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: "SF UI Text";
+    font-size: 13px;
+    opacity: 0.95;
+    line-height: 45px;
+    text-align: center;
+}
+li a{
+    animation-name: out;
+    animation-duration: 250ms;
+    color: white;
+    display: block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    animation-name: in;
+    animation-duration: 250ms;
+    color: darkgrey;
+}
+
+.content{
+    position: relative;
+    background-color: black;
+    top: 45px;
+    width: 100%;
+    height: 1400px;
+}
+
+#zlpixel{
+    position: absolute;
+    width: 20%;
+    top: 40px;
+    left: 65%;
+    opacity: 0;
+}
+#zlogo{
+    position: absolute;
+    width: 35%;
+    top: 80px;
+    left: 1%;
+    opacity: 0;
+}
+#ztitle{
+    position: absolute;
+    width: 30%;
+    top: 170px;
+    left: 35%;
+    color: #ffffff;
+    font-family: "SF UI Text";
+    font-size: 35px;
+    opacity: 0;
+}
+#zdesc{
+    position: absolute;
+    width: 25%;
+    top: 250px;
+    left: 31%;
+    color: #ffffff;
+    font-family: "SF UI Text";
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+}
+#zlget{
+    position: absolute;
+    width: 15%;
+    top: 330px;
+    left: 36%;
+    color: cornflowerblue;
+    font-family: "SF UI Text";
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+}
+#arpixel{
+    position: absolute;
+    width: 20%;
+    top: 720px;
+    left: 55%;
+    opacity: 0;
+}
+#arlogo{
+    position: absolute;
+    width: 32%;
+    top: 680px;
+    left: 22%;
+    opacity: 0;
+}
+#artitle{
+    position: absolute;
+    width: 30%;
+    top: 1040px;
+    left: 28%;
+    color: #ffffff;
+    font-family: "SF UI Text";
+    font-size: 35px;
+    opacity: 0;
+}
+#ardesc{
+    position: absolute;
+    width: 25%;
+    top: 1110px;
+    left: 25%;
+    color: #ffffff;
+    font-family: "SF UI Text";
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+}
+#arget{
+    position: absolute;
+    width: 15%;
+    top: 1190px;
+    left: 30%;
+    color: cornflowerblue;
+    font-family: "SF UI Text";
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+}
