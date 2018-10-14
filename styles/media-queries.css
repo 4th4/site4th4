@@ -52,7 +52,7 @@ ul {
     background-color: black;
     top: 279px;
     width: 100%;
-    height: 3000px;
+    height: 2200px;
     }
     
     #zlpixel{
@@ -156,4 +156,47 @@ ul {
     opacity: 0;
 }
     
+footer{
+    width: 100%;
+    height: 170;
+    margin-top: 280px;
+    background-color: black;
+    border-top: 1px solid gray;
+}
+#about{
+    position: absolute;
+    color: grey;
+    font-family: "SF UI Text";
+    font-size: 12px;
+    width: 460;
+    left: 5%;
+    margin-top: 35;
+    text-align: left;
+}
+
+#contact{
+    position: absolute;
+    color: grey;
+    font-family: "SF UI Text";
+    font-size: 20px;
+    left: 72%;
+    margin-top: 65;
+    text-align: left;
+}
+#privacyp{
+    position: absolute;
+    color: grey;
+    font-family: "SF UI Text";
+    font-size: 20px;
+    left: 55%;
+    margin-top: 65;
+    text-align: left;
+}
+
+#aptoide{
+    position: absolute;
+    height: 100px;
+    left: 85%;
+    margin-top: 27;
+}   
 }
