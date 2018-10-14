@@ -21,8 +21,17 @@ function showDescription(){
 }
 function showTutorial(){
     window.scroll({
-    top: 1320, 
+    top: 1300, 
     left: 0, 
     behavior: 'smooth' 
     });
 }
+
+function showPurchases(){
+    window.scroll({
+    top: 2000, 
+    left: 0, 
+    behavior: 'smooth' 
+    });
+}
+

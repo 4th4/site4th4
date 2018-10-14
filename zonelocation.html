@@ -1,9 +1,9 @@
 <html>
     <head>
-        <meta charset="utf-8"/>
+        <meta charset="utf-8" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="zlstyle.css"/>
-        <script type="text/javascript" src="zloc.js"></script>
+        <link rel="stylesheet" href="styles/zlstyle.css"/>
+        <script type="text/javascript" src="scripts/zloc.js"></script>
     </head>
     <body onload="showScreens()">
        <div class="upbar">
@@ -23,7 +23,7 @@
                Windsurfing
            </a></li>
            <li><a>
-               Contacts
+               Contact us
            </a></li>
            </ul>
        </div>
@@ -38,8 +38,8 @@
            <li><a id="tutorial" href="javascript:showTutorial();">
                Tutorial
            </a></li>
-           <li><a id="policy" href="#">
-               Privacy policy
+           <li><a id="policy" href="javascript:showPurchases();">
+               Purchases
            </a></li>
            <li><a id="download" href="#">
                Download
@@ -49,9 +49,11 @@
    </div>
    <div class="zlocation">
        <img id="zlscr1" src="res/zoneloc_help.png"/>
+       <a id="scrpolicy" href="javascript:showTutorial();"></a>
        <img id="zlscr3" src="res/zoneloc_ab.png"/>
        <img id="zlscr2" src="res/zoneloc_pixel.png"/>
-       <h1 id="title">Zone location</h1>
+       <h1 id="title">Zone location
+           </h1>
        <h1 id="deviz">Can find everybody.</h1>
        <h1 id="description">This app design to help you 
            find your loved ones right now and control safety of them.
@@ -65,8 +67,24 @@
            find your loved ones right now and control safety of them.</h1>
            <a id="dlfile" href="">Download</a>
            <a id="apfile" href="">From Aptoide</a>
-           <iframe id="video" width="80%" height="550" src="https://www.youtube.com/embed/TPYhxKblWZo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-           <h1>Privacy policy</h1>
+           <h1 id="ttutorial">Video tutorial</h1>
+           <iframe id="video" width="80%" height="500"
+                   src="https://www.youtube.com/embed/TPYhxKblWZo" frameborder="0"
+                   allow="autoplay; encrypted-media" allowfullscreen></iframe>
+           <h1 id="inapp">In app purchase</h1>
+           <h1 id="protitle">Zone location PRO:</h1>
+           <h1 id="price">10 USD</h1>
+           <a id="square"></a>
+           <img id="liqpay" src="res/liqpay.png"/>
+           <img id="cards" src="res/cards.png"/>
+           <a id="line"></a>
+           <a id="inappdesc">Lake whitefish garden eel bullhead shark angler midshipman cavefish goldfish leopard danio? Rainbow trout bamboo shark bristlemouth saw shark skipjack tuna; Dolly Varden trout murray cod, long-finned pike. Convict blenny scup pollock pike characid, rough pomfret; sheatfish molly--barramundi summer flounder false cat shark. Trunkfish surf sardine sand stargazer sandperch Pacific albacore central mudminnow ayu sablefish, "clingfish northern lampfish swampfish mudfish."</a>
    </div>
+   <footer>
+       <a id="about">Lake whitefish garden eel bullhead shark angler midshipman cavefish goldfish leopard danio? Rainbow trout bamboo shark bristlemouth saw shark skipjack tuna; Dolly Varden trout murray cod, long-finned pike. Convict blenny scup pollock pike characid, rough pomfret; sheatfish molly--barramundi summer flounder false cat shark. Trunkfish surf sardine sand stargazer sandperch Pacific albacore central mudminnow ayu sablefish, "clingfish northern lampfish swampfish mudfish.</a>
+       <a id="contact" href="#" >Contact us</a>
+       <a id="privacy" href="policy.html">Privacy policy</a>
+       <img id="aptoide" src="res/aptoide.png"/>
+   </footer>
     </body>
 </html>
