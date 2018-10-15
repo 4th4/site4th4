@@ -49,6 +49,7 @@ ul {
     
     .content{
     position: relative;
+    overflow: hidden;
     background-color: black;
     top: 279px;
     width: 100%;
