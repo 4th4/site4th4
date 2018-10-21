@@ -1,7 +1,7 @@
 function showScreens(){
     $('#zlscr1').delay(1500).animate({
         opacity:'1',
-        left: '23%'                             
+        left: '13%'                             
     },1500);
     $('#zlscr2').delay(300).animate({
         opacity:'1'                            

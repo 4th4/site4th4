@@ -21,7 +21,7 @@ function showFirst(){
           },1500);
           $('#artitle').animate({
               opacity:'1',
-              left: '18%'                            
+              left: '16%'                            
           },1500);
           $('#ardesc').animate({
               opacity:'1',

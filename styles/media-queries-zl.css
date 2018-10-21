@@ -1,0 +1,192 @@
+@media (max-width: 980px){
+    
+.upbar{ 
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.82);
+}
+
+#applogo{
+    position: absolute;
+    height: 80px;
+    left: 10%;
+    top: 0px;
+}
+#uplogo{
+    position: absolute;
+    height: 40px;
+    margin-top: 30px;
+    left: 3%;
+}
+
+.menu{
+    margin-left: 3%;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+    
+    .menu li {
+       color: ivory;
+       margin-left: 3%;
+       vertical-align: middle;
+       display: inline-block;
+       font-family: "SF UI Text";
+       font-size: 25px;
+       opacity: 0.95;
+       line-height: 100px;
+       text-align: center;
+    }
+li a{
+    animation-name: out;
+    animation-duration: 250ms;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: block;
+}
+    
+    .navbar{
+    position: sticky;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.80);
+    padding-left: 5%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    padding-top: 4px;
+}
+
+.nav{
+    margin-left: 40%;
+}
+
+.nav li {
+    color: ivory;
+    margin-left: 3%;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: "SF UI Text";
+    font-size: 10px;
+    opacity: 0.95;
+    line-height: 70px;
+    text-align: center;
+}
+    
+    .zlocation{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 2800px;
+    margin-top: -75px;
+}
+    
+    #download{
+    animation-name: outd;
+    animation-duration: 250ms;
+    font-size: 20px;
+    font-family: "Avenir Next Cyr";
+    color: white;
+}
+    #policy{
+    animation-name: outd;
+    animation-duration: 250ms;
+    font-size: 20px;
+    font-family: "Avenir Next Cyr";
+    color: white;
+}
+    #tutorial{
+    animation-name: outd;
+    animation-duration: 250ms;
+    font-size: 20px;
+    font-family: "Avenir Next Cyr";
+    color: white;
+}
+    #desc{
+    animation-name: outd;
+    animation-duration: 250ms;
+    font-size: 20px;
+    font-family: "Avenir Next Cyr";
+    color: white;
+}
+    
+    #zlscr1{
+    position: absolute;
+    width: 30%;
+    top: 100px;
+    left: 35%;
+    opacity: 0;
+}
+
+#zlscr2{
+    position: absolute;
+    width: 30%;
+    top: 100px;
+    left: 35%;
+    opacity: 0;
+}
+#zlscr3{
+    position: absolute;
+    width: 30%;
+    top: 100px;
+    left: 35%;
+    opacity: 0;
+}
+    
+    footer{
+    width: 100%;
+    height: 170;
+    margin-top: 0;
+    background-color: black;
+    border-top: 1px solid gray;
+}
+#about{
+    position: absolute;
+    color: grey;
+    font-family: "SF UI Text";
+    font-size: 12px;
+    width: 460;
+    left: 5%;
+    margin-top: 35;
+    text-align: left;
+}
+
+#contact{
+    position: absolute;
+    color: grey;
+    font-family: "SF UI Text";
+    font-size: 20px;
+    left: 72%;
+    margin-top: 65;
+    text-align: left;
+}
+#privacyp{
+    position: absolute;
+    color: grey;
+    font-family: "SF UI Text";
+    font-size: 20px;
+    left: 55%;
+    margin-top: 65;
+    text-align: left;
+}
+
+#aptoide{
+    position: absolute;
+    height: 100px;
+    left: 85%;
+    margin-top: 27;
+}   
+
+}

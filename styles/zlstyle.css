@@ -192,14 +192,6 @@ li a:hover {
     opacity: 0;
 }
 
-#scrpolicy{
-    position: absolute;
-    width: 16%;
-    height: 150px;
-    left: 24%;
-    top: 400px;
-}
-
 #zlscr2{
     position: absolute;
     width: 19%;
@@ -236,7 +228,7 @@ li a:hover {
 #description{
     position: absolute;
     font-family: Trebuchet MS;
-    font-size: 30px;
+    font-size: 27px;
     color: #e4d1d3;
     width: 70%;
     text-align: center;
@@ -251,7 +243,7 @@ li a:hover {
     width: 70%;
     text-align: center;
     top: 1200px;
-    padding-left: 6%;
+    padding-left: 3%;
 }
 #apfile{
     position: absolute;
@@ -261,7 +253,7 @@ li a:hover {
     width: 75%;
     text-align: center;
     top: 1200px;
-    padding-left: 20%;
+    padding-left: 23%;
 }
 
 #ttutorial{
@@ -283,7 +275,7 @@ li a:hover {
 #protitle{
     position: absolute;
     top: 2180px;
-    left: 15%;
+    left: 10%;
     font-family: Trebuchet MS;
     font-size: 37;
     color: #e4d1d3;
@@ -292,7 +284,7 @@ li a:hover {
 #price{
     position: absolute;
     top: 2230px;
-    left: 15%;
+    left: 10%;
     font-family: Trebuchet MS;
     font-size: 70;
     color: #e4d1d3;
@@ -302,7 +294,7 @@ li a:hover {
 #square{
     position: absolute;
     top: 2130px;
-    left: 13%;
+    left: 8%;
     background-color: transparent;
     border: 2px solid #e4d1d3;
     border-radius: 10px;
@@ -312,13 +304,13 @@ li a:hover {
 #liqpay{
     position: absolute;
     top: 2130px;
-    left: 15%;
+    left: 10%;
     width: 170;
 }
 #cards{
     position: absolute;
     top: 2057px;
-    left: 55%;
+    left: 50%;
     width: 500;
 }
 

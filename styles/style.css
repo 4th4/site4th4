@@ -146,7 +146,7 @@ li a:hover {
     left: 21%;
     color: #ffffff;
     font-family: "SF UI Text";
-    font-size: 35px;
+    font-size: 33px;
     text-align: center;
     opacity: 0;
 }
@@ -158,14 +158,14 @@ li a:hover {
     left: 21%;
     color: #ffffff;
     font-family: "SF UI Text";
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     opacity: 0;
 }
 #zlget{
     position: absolute;
     width: 15%;
-    top: 510px;
+    top: 500px;
     left: 26%;
     color: cornflowerblue;
     font-family: "SF UI Text";
@@ -189,8 +189,8 @@ li a:hover {
 }
 #artitle{
     position: absolute;
-    width: 25%;
-    top: 1040px;
+    width: 30%;
+    top: 1020px;
     left: 25%;
     color: #ffffff;
     font-family: "SF UI Text";
@@ -201,7 +201,7 @@ li a:hover {
 #ardesc{
     position: absolute;
     width: 25%;
-    top: 1110px;
+    top: 1090px;
     left: 25%;
     color: #ffffff;
     font-family: "SF UI Text";
@@ -212,7 +212,7 @@ li a:hover {
 #arget{
     position: absolute;
     width: 15%;
-    top: 1200px;
+    top: 1190px;
     left: 30%;
     color: cornflowerblue;
     font-family: "SF UI Text";
