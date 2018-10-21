@@ -1,6 +1,6 @@
     <?php
-    $file = fopen("res/policy.txt", 'r');
-    echo fread($file,filesize("res/policy.txt"));
+    $file = fopen("policy.txt", 'r');
+    echo fread($file,filesize("policy.txt"));
     fclose($file);
 
 
